@@ -21,7 +21,8 @@
         
         li {
             line-height:25px;
-            margin:12px;
+            margin:10px;
+            
         }
         
         .ueberschrift {
@@ -29,14 +30,18 @@
             padding:3px;
         }
         
+        .container {
+        text-align:center;
+       
+}
+
+        
         
            .img {
-            float:left;
+            display:inline-block;
             width: 150px;
             padding: 15px;
             font-size: 1em;
-          
-          
         }
         
      
@@ -53,11 +58,7 @@
         th, td {
          padding: 10px;
         }
-        
-        .flex { 
-        justify-content: center; 
-        align-items: center;
-        }
+    
     
         </style>
     </head>
@@ -77,18 +78,18 @@
                 
                 <tr>
                     <td> <strong>Wann?</strong>
-                    <td> Freitag, 21.08.2020, 18:30 </td>
+                    <td> Freitag, 21.08.2020, 18:30 Uhr </td>
                 </tr>
                 
                 <tr>
                     <td><strong>Was?</strong></td>
-                    <td>Wir bestellen <em>Pizza</em> und als Nachtisch gibt es dann selbstgemachtes <em>Tiramisu</em> von mir Snacks werden ebenfalls von mir bereitgestellt. </td>
+                    <td>Wir bestellen <em>Pizza</em> und als Nachtisch gibt es dann selbstgemachtes <em>Tiramisu</em> von mir! <br> Snacks werden ebenfalls von mir bereitgestellt. </td>
                 </tr>
                 
                 <tr> 
                     <td> <strong>Was mitbringen?</strong> </td> 
                     <td> <ul> <li> Gute Laune :)</li>
-                    <li>   Gerne Getränke (Wein o.ä.)</li>
+                    <li> Gerne Getränke (Wein o.ä.)</li>
                     <li> Ggf. Spiele, habe aber auch einige da! </li>
                     </ul>
         
@@ -103,16 +104,20 @@
         
         <h3> Mögliche Spieleauswahl</h3>
         
-        <div class="img flex"> <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Camel_Up_box_cover.jpg" alt="Camel up" height="150" > Camel Up </div>
+        <div class="container">
+        
+        <div class="img"> <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Camel_Up_box_cover.jpg" alt="Camel up" height="150"  > Camel Up </div>
       
         
-        <div class="img flex"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Jungle_Speed.jpg/400px-Jungle_Speed.jpg" alt="Jungle Speed" height="150" > Jungle Speed </div>
+        <div class="img"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Jungle_Speed.jpg/400px-Jungle_Speed.jpg" alt="Jungle Speed" height="150" > Jungle Speed </div>
         
-        <div class="img flex"> <img src="https://www.kasandbox.org/programming-images/space/plus.png" alt="plus sign" height="150">
+        <div class="img"> <img src="https://www.kasandbox.org/programming-images/space/plus.png" alt="plus sign" height="150">
        
        Activity <br> 
             Ein Nilpferd kommt selten allein <br> <br>
             und mehr...
         </div>
+
+        </div> 
     </body>
 </html>
